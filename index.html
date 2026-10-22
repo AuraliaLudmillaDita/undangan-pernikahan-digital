@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan</title>
+    <link href= "bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Tenor+Sans&display=swap" rel="stylesheet">
+    <link href="UTS.css" rel="stylesheet">
+</head>
+<body>
+    
+
+    <div id="cover">
+        <div class="isi">
+            <p> THE WEDDING OF</p>
+            <h1> Rico <br> &amp; Virly</h1>
+            <p>Kepada Yth.</p>
+            <h4>Tamu Undangan</h4>
+            <button class="buttoncover" onclick="bukaUndangan()">BUKA UNDANGAN</button>
+        </div>
+    </div>
+
+    <div class="layarkedua">
+        <p>KAMI AKAN MENIKAH</p>
+        <h1>Rico &amp; Virly</h1>
+        <h4>Sabtu, 26 Desember 2026</h4>
+        <div id="hitungMundur">
+        </div>
+    </div>
+
+
+    <div class="warnahalaman1 py-5 text-center">
+        <div class="container">
+            <h1 class="fonthalaman3 mb-4">Mempelai</h1>
+
+                <div class="fonthalaman3 row g-4 justify-content-center">
+
+                    <div class="col-md-5">
+                        <img src="mempelai-pria.jpeg" alt="Mempelai pria" width="200" height="200" class="rounded-5 border border-3 border-warning shadow object-fit-cover">
+                        <h3 class="mt-3">Rico Pratama</h3>
+                        <p class="text-body-secondary">Putra dari Bapak Demian dan Ibu Shirly </p>
+                    </div>
+
+                <div class="col-md-5">
+                    <img src="mempelai-wanita.jpeg" alt="Mempelai wanita" width="200" height="200" class="rounded-5 border border-3 border-warning shadow object-fit-cover">
+                    <h3 class="mt-3">Virly Anggraini</h3>
+                    <p class="text-body-secondary">Putri dari Bapak Juan dan Ibu Louis</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="fonthalaman3 warnahalaman2 py-5 text-center">
+        <div class="container">
+            <h2 class="mb-4">Rangkaian Acara</h2>
+            
+            <div class="row g-4 justify-content-center">
+            
+                <div class="col-md-4">
+            
+                    <div class="kartu p-4 bg-white border rounded shadow">
+                        <h3>Akad Nikah</h3>
+                        <p>26 Desember 2026</p>
+                        <p>08.00 - 10.00 WIB</p>
+                        <p>The Ritz - Carlton Jakarta Pacific Place </p>
+                        <a href="https://maps.app.goo.gl/ujbwF4QjNAgwEMta6" target="_blank" class="tombollokasi">Lihat Lokasi</a>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    
+                    <div class="kartu p-4 bg-white border rounded shadow">
+                        <h3>Resepsi</h3>
+                        <p>26 Desember 2026</p>
+                        <p>12.00 - 18.00 WIB</p>
+                        <p>The Ritz - Carlton Jakarta Pacific Place </p>
+                        <a href="https://maps.app.goo.gl/ujbwF4QjNAgwEMta6" target="_blank" class="tombollokasi">Lihat Lokasi</a>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    
+                    <div class="kartu p-4 bg-white border rounded shadow">
+                        <h3>After Party</h3>
+                        <p>26 Desember 2026</p>
+                        <p>19.00 - 22.00 WIB</p>
+                        <p>The Ritz - Carlton Jakarta Pacific Place </p>
+                        <a href="https://maps.app.goo.gl/ujbwF4QjNAgwEMta6" target="_blank" class="tombollokasi">Lihat Lokasi</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fonthalaman3 warnahalaman1 py-5 text-center">
+        <div class="container">
+            <p> OUR MOMENTS</p>
+            <h1 class="mb-4">Galeri</h1>
+            
+            <div class="row g-3">
+                <div class="col-6 col-md-4">
+                    <img src="prewed1.jpeg" alt="Foto galeri 1" class="img-fluid rounded shadow galeri">
+                </div>
+                
+                <div class="col-6 col-md-4">
+                    <img src="prewed2.jpeg" alt="Foto galeri 2" class="img-fluid rounded shadow galeri">
+                </div>
+
+                <div class="col-6 col-md-4">
+                    <img src="prewed3.jpeg" alt="Foto galeri 3" class="img-fluid rounded shadow galeri">
+                </div>
+
+                <div class="col-6 col-md-4">
+                    <img src="prewed4.jpeg" alt="Foto galeri 4" class="img-fluid rounded shadow galeri">
+                </div>
+
+                <div class="col-6 col-md-4">
+                    <img src="prewed5.jpeg" alt="Foto galeri 5" class="img-fluid rounded shadow galeri">
+                </div>
+
+                <div class="col-6 col-md-4">
+                    <img src="prewed6.jpeg" alt="Foto galeri 6" class="img-fluid rounded shadow galeri">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fonthalaman3 warnahalaman2 py-5 text-center">
+        <div class="container">
+            <h2 class="mb-4">Konfirmasi dan Ucapan</h2>
+
+            <div class="form-ucapan">
+                <input type="text" id="nama" placeholder="nama yang kita kenal yaa!!">
+                <select id="hadir">
+                    <option> dateng dong!!</option>
+                    <option> belum tau nih :|</option>
+                    <option>sorry ngga bisaa :(</option>
+                </select>
+
+                <textarea id="pesan" rows="4" placeholder="Ucapan kamu akan sangat bermakna bagi kami &lt;3"></textarea>
+                <button type="button" class="tombolkirim" onclick="kirimUcapan()">Kirim Ucapan</button>
+            </div>
+
+            <div id="daftarUcapan"></div>
+        </div>
+    </div>
+
+    <div class="warnahalaman1 py-5 text-center">
+        <div class="container">
+            <h1 class="fonthalaman4 mt-5">Rico &amp; Virly</h1>
+            <p class="fonthalaman3">senang bisa membagi kebahagiaan dengan kalian.</p>
+        </div>
+    </div>
+    <script src="UTS.js"></script>
+</body>
+</html>

@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#cover {
+    display: flex;
+    min-height: 100dvh;
+    background-image: url(cover1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #2f3a33;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.isi {
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+#cover h1 {
+    font-family: "allura", cursive;
+    text-shadow: 2px 2px 5px black;
+    font-size: 4rem;
+}
+
+#cover h4 {
+    font-family: "tenor sans", sans-serif;
+}
+.buttoncover {
+    background-color: rgb(37, 75, 1);
+    color: white;
+    border : none;
+    border-radius: 50px;
+    padding: 10px 24px;
+    transition: background-color 0.3s ease;
+    font-size: 1.1rem;
+
+}
+
+.buttoncover:hover {
+  background-color: rgb(38, 119, 3);
+}
+
+.layarkedua {
+    display: flex;
+    background-image: url(layarkedua.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #2f3a33;
+    min-height: 100dvh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: "Tenor Sans", sans-serif;
+}
+
+.layarkedua h1 {
+    font-family: allura;
+    font-size: 3.5rem;
+}
+
+#hitungMundur {
+  margin-top: 1.5rem;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 1px solid #2f3a33;
+  border-radius: 20px;
+}
+
+.fonthalaman3 {
+    font-family: "tenor sans", sans-serif;
+}
+
+.fonthalaman4 {
+    font-family: "allura", sans-serif;
+}
+
+.kartu {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.kartu:hover {
+    transform: translate(0, -8px);
+}
+
+.tombollokasi {
+  display: inline-block;
+  background-color: #4f6350;
+  color: white;
+  padding: 10px 24px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.tombollokasi:hover {
+  background-color: #8bad8c;
+}
+
+.galeri {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.galeri:hover {
+  transform: translate(0, -8px);
+}
+
+.warnahalaman1 {
+    background-color: rgb(196, 218, 160);
+}
+
+.warnahalaman2 {
+    background-color: rgb(176, 202, 132);
+}
+
+.form-ucapan {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-ucapan input,
+.form-ucapan select,
+.form-ucapan textarea {
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #4f6350;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+.tombolkirim {
+  background-color: #4f6350;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 24px;
+  transition: background-color 0.3s ease;
+}
+
+.tombolkirim:hover {
+  background-color: #3d4d43;
+}
+
+.kotakucapan {
+  max-width: 500px;
+  background-color: white;
+  border: 1px solid #4f6350;
+  border-radius: 15px;
+  padding: 15px;
+  margin-top: 15px;
+  text-align: left;
+}
